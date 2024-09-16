@@ -4,7 +4,7 @@ const path = require('path')
 const app = express()
 
 var Publishable_Key = 'pk_test_51NDQcxSEqqg3FYu2rkxvto76SK41u9sMEasMYDA4zxrPFRG322tymE6hJRnvqmNIpAB64jD5LgSu0tVa4oys468v0012mRj5GW'
-var Secret_Key = 'sk_test_51NDQcxSEqqg3FYu2P4vcOFcaPj7mP3CrLJBN8weWlS0JTfux0oZU8mvTI7VhFCtm1ILlu6mT8UL81Jsu6GuyhabJ00TrnZkcdE'
+var Secret_Key = '****'
 
 const stripe = require('stripe')(Secret_Key)
 
